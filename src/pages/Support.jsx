@@ -54,7 +54,7 @@ function Support() {
            <img src='/assets/supportOverlay.png'></img>
            <div className='flex flex-col justify-start items-start text-white pl-10'>
             <div className='flex flex-row justify-start items-center mb-5'>
-              <img src='/src/assets/icon_game.png'></img>
+              <img src='/assets/icon_game.png'></img>
             <a className='pl-3'>
                 CHECK OUT WHAT'S NEW IN SEASON 03 RELOADED
             </a>

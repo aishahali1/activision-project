@@ -11,7 +11,7 @@ function Sectioncards() {
     <section className='flex flex-col text-white'>
       <div>
         <div className='flex flex-row justify-center items-center border-b border-[#5A5B5C] bg-black'>
-          <div className='text pl-40 w-200 h-60 p-7'>
+          <div className='text pl-40 w-100 h-60 p-7'>
             <h3 className='text-4xl'>We're here to help!</h3>
             <p className='text-lg font-bold'>Get answers to frequently asked questions, check server status, and engage with a support expert</p>
             <br></br>

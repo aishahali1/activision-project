@@ -77,19 +77,19 @@ function HomeNewsCards() {
         </div>
 
         <div className="Listitem group w-[137px] h-[70px] flex justify-center items-center border-b-[0px] border-[#0768af] cursor-pointer transition-all duration-300 hover:bg-[#0768af33] hover:border-b-[7px] hover:pb-[6px]">
-          <img src="/src/assets/activision-logo.svg" className="h-8" alt="Activision Logo" />
+          <img src="/assets/activision-logo.svg" className="h-8" alt="Activision Logo" />
         </div>
 
         <div className="Listitem group w-[137px] h-[70px] flex justify-center items-center border-b-[0px] border-[#0768af] cursor-pointer transition-all duration-300 hover:bg-[#0768af33] hover:border-b-[7px] hover:pb-[6px]">
-          <img src="/src/assets/cod-logo.svg" className="h-8" alt="CoD Logo" />
+          <img src="/assets/cod-logo.svg" className="h-8" alt="CoD Logo" />
         </div>
 
         <div className="Listitem group w-[137px] h-[70px] flex justify-center items-center border-b-[0px] border-[#0768af] cursor-pointer transition-all duration-300 hover:bg-[#0768af33] hover:border-b-[7px] hover:pb-[6px]">
-          <img src="/src/assets/THPS3+4_Logo.svg" className="h-8" alt="THPS Logo" />
+          <img src="/assets/THPS3+4_Logo.svg" className="h-8" alt="THPS Logo" />
         </div>
 
         <div className="Listitem group w-[137px] h-[70px] flex justify-center items-center border-b-[0px] border-[#0768af] cursor-pointer transition-all duration-300 hover:bg-[#0768af33] hover:border-b-[7px] hover:pb-[6px]">
-          <img src="/src/assets/crash-bandicoot-logo.png" className="h-8" alt="Crash Logo" />
+          <img src="/assets/crash-bandicoot-logo.png" className="h-8" alt="Crash Logo" />
         </div>
       </div>
     </div>
@@ -109,7 +109,7 @@ function HomeNewsCards() {
           <span>{item.info}</span><br></br>
           <a className='uppercase flex flex-row justify-start items-center gap-2 mt-2'>
             read more
-            <img src='/src/assets/readmore-arrow.svg' className='h-3'></img>
+            <img src='/assets/readmore-arrow.svg' className='h-3'></img>
           </a>
            </div>
          </div>
