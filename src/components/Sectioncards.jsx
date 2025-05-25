@@ -18,7 +18,7 @@ function Sectioncards() {
             <a className='uppercase border border-solid border-white p-4 rounded-3xl px-15'>Visit Support</a>
           </div>
           <div className=''>
-            <img src='/src/assets/support-banner-v3.jpg' className='supportImg h-60 w-400'/>
+            <img src='/assets/support-banner-v3.jpg' className='supportImg h-60 w-400'/>
           </div>
         </div>
       </div>

@@ -3,7 +3,7 @@ import React, { useEffect, useRef, useState } from "react";
 const videoData = [
   {
     src: "https://www.callofduty.com/cdn/bo6/bo6-gameplay-reveal-trailer-atvi.mp4",
-    src2: "/src/assets/video1logo.png",
+    src2: "/assets/video1logo.png",
     text: "Forced to go rogue. Hunted from Within.",
     subtext: "This is Black Ops 6."
   }

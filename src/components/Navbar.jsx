@@ -23,7 +23,7 @@ function Navbar() {
     <nav className='flex absolute top-0 left-0 z-50 w-screen items-center h-[60px] font-bold'>
         <div className='flex flex-row justify-center items-center gap-15 w-screen'>
         <div className='logo flex flex-row justify-center items-center header-top-nav '>
-           <img className='block h-[30px]' src='/src/assets/activision-logo.svg'></img>
+           <img className='block h-[30px]' src='/assets/activision-logo.svg'></img>
         </div>
         <div className='flex flex-row justify-between items-center gap-9 w-250'>
         <ul className='text-[#a6a7a8] flex flex-row gap-9'>

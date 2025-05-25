@@ -1,54 +1,54 @@
 import React from 'react'
 
 const people = [
-    {src: "/src/assets/rob-kostich.jpg",
+    {src: "/assets/rob-kostich.jpg",
      name: "Rob Kostich",
      position: "President"
     },
-    {src: "/src/assets/josh-taub.jpg",
+    {src: "/assets/josh-taub.jpg",
      name: "Josh Taub",
      position: "Chief Operating Officer"
     },
-    {src: "/src/assets/suzie-carr.jpg",
+    {src: "/assets/suzie-carr.jpg",
      name: "Suzie Carr",
      position: "Chief People Officer"
     },
-    {src: "/src/assets/terri-durham.jpg",
+    {src: "/assets/terri-durham.jpg",
      name: "Terri Durham",
      position: "SVP & General Counsel"
     },
-    {src: "/src/assets/dave-stohl.jpg",
+    {src: "/assets/dave-stohl.jpg",
      name: "David Stohl",
      position: "Head of Development, Call of Duty"
     },
-    {src: "/src/assets/patt-kelly.jpg",
+    {src: "/assets/patt-kelly.jpg",
      name: "Pat Kelly",
      position: "Head of Creative, Call of Duty"
     },
 ]
 
 const aboutgames = [
-    { image: "/src/assets/aboutgame1.jpg",
+    { image: "/assets/aboutgame1.jpg",
      title: "Call of Duty Black Ops 6",
      rating: "Mature 17+"
     },
-    {image: "/src/assets/aboutgame1.jpg",
+    {image: "/assets/aboutgame1.jpg",
      title: "Call of Duty Black Ops 6",
      rating: "Mature 17+"
     },
-    {image: "/src/assets/aboutgame1.jpg",
+    {image: "/assets/aboutgame1.jpg",
      title: "Call of Duty Black Ops 6",
      rating: "Mature 17+"
     },
-    {image: "/src/assets/aboutgame1.jpg",
+    {image: "/assets/aboutgame1.jpg",
      title: "Call of Duty Black Ops 6",
      rating: "Mature 17+"
     },
-    {image: "/src/assets/aboutgame1.jpg",
+    {image: "/assets/aboutgame1.jpg",
      title: "Call of Duty Black Ops 6",
      rating: "Mature 17+"
     },
-    {image: "/src/assets/aboutgame1.jpg",
+    {image: "/assets/aboutgame1.jpg",
      title: "Call of Duty Black Ops 6",
      rating: "Mature 17+"
     },
@@ -60,7 +60,7 @@ const teamsArray =[
 function About() {
   return (
     <>
-    <img src='/src/assets/about-hero.jpg'></img>
+    <img src='/assets/about-hero.jpg'></img>
     <div className='bg-black text-white flex flex-col justify-center items-center text-[15px] py-10'>
          <h2 className='text-4xl font-extrabold mb-4 uppercase'>Our Mission</h2>
         <div className='aboutborder w-300 flex flex-col justify-center items-center'>
@@ -91,7 +91,7 @@ function About() {
                 <div className='bg-black text-white flex flex-col justify-center items-center text-[15px] py-10'>
                <h2 className='text-4xl font-extrabold mb-4 uppercase'>Our Values</h2>
                 <div className='aboutborder w-300 flex flex-col justify-center items-center'>
-                 <img src="/src/assets/about-values.png"></img>
+                 <img src="/assets/about-values.png"></img>
              </div>
                 </div>
                  <div className='bg-black text-white flex flex-col justify-center items-center text-[15px] py-10'>

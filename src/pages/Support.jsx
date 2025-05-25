@@ -3,39 +3,39 @@ import React from 'react'
 const supportcards= [
     {
         info: "CALL OF DUTY: BLACK OPS 6",
-        src: "/src/assets/supportcard1.jpg",
+        src: "/assets/supportcard1.jpg",
     },
      {
         info: "CALL OF DUTY: BLACK OPS 6",
-        src: "/src/assets/supportcard1.jpg",
+        src: "/assets/supportcard1.jpg",
     },
      {
         info: "CALL OF DUTY: BLACK OPS 6",
-        src: "/src/assets/supportcard1.jpg",
+        src: "/assets/supportcard1.jpg",
     },
        {
         info: "CALL OF DUTY: BLACK OPS 6",
-        src: "/src/assets/supportcard1.jpg",
+        src: "/assets/supportcard1.jpg",
     },
        {
         info: "CALL OF DUTY: BLACK OPS 6",
-        src: "/src/assets/supportcard1.jpg",
+        src: "/assets/supportcard1.jpg",
     },
        {
         info: "CALL OF DUTY: BLACK OPS 6",
-        src: "/src/assets/supportcard1.jpg",
+        src: "/assets/supportcard1.jpg",
     },
       {
         info: "CALL OF DUTY: BLACK OPS 6",
-        src: "/src/assets/supportcard1.jpg",
+        src: "/assets/supportcard1.jpg",
     },
        {
         info: "CALL OF DUTY: BLACK OPS 6",
-        src: "/src/assets/supportcard1.jpg",
+        src: "/assets/supportcard1.jpg",
     },
        {
         info: "CALL OF DUTY: BLACK OPS 6",
-        src: "/src/assets/supportcard1.jpg",
+        src: "/assets/supportcard1.jpg",
     }
      
 ]
@@ -51,7 +51,7 @@ function Support() {
     </div>
     <div className='supportHero w-screen h-[550px]'>
         <div className='supportoverlay w-screen h-[550px] flex flex-col justify-center items-start'>
-           <img src='/src/assets/supportOverlay.png'></img>
+           <img src='/assets/supportOverlay.png'></img>
            <div className='flex flex-col justify-start items-start text-white pl-10'>
             <div className='flex flex-row justify-start items-center mb-5'>
               <img src='/src/assets/icon_game.png'></img>
@@ -60,7 +60,7 @@ function Support() {
             </a>
             </div>
             <div className='flex flex-row justify-start items-center'>
-                <img src='/src/assets/icon_support.png'></img>
+                <img src='/assets/icon_support.png'></img>
             <a className='pl-3'>
                 Browse the support page
             </a>

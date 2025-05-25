@@ -2,7 +2,7 @@ import React from 'react'
 
 const newsCard = [
     {
-      src: '/src/assets/news-card-img1.jpg',
+      src: '/assets/news-card-img1.jpg',
       date: 'MAY 20,2025',
       title: 'Stitch Returns in Season 04',
       info: `Following a daring jailbreak conducted by his former adversary, Stitch’s 
@@ -12,7 +12,7 @@ const newsCard = [
       in the Season 04 Battle Pass.`
     },
      {
-      src: '/src/assets/news-card-img2.jpg',
+      src: '/assets/news-card-img2.jpg',
       date: 'MAY 20,2025',
       title: 'Stitch Returns in Season 04',
       info: `Following a daring jailbreak conducted by his former adversary, Stitch’s 
@@ -22,7 +22,7 @@ const newsCard = [
       in the Season 04 Battle Pass.`
     },
      {
-      src: '/src/assets/news-card-img3.jpg',
+      src: '/assets/news-card-img3.jpg',
       date: 'MAY 20,2025',
       title: 'Stitch Returns in Season 04',
       info: `Following a daring jailbreak conducted by his former adversary, Stitch’s 
@@ -32,7 +32,7 @@ const newsCard = [
       in the Season 04 Battle Pass.`
     },
      {
-      src: '/src/assets/news-card-img4.webp',
+      src: '/assets/news-card-img4.webp',
       date: 'MAY 20,2025',
       title: 'Stitch Returns in Season 04',
       info: `Following a daring jailbreak conducted by his former adversary, Stitch’s 
@@ -42,7 +42,7 @@ const newsCard = [
       in the Season 04 Battle Pass.`
     },
      {
-      src: '/src/assets/news-card-img5.webp',
+      src: '/assets/news-card-img5.webp',
       date: 'MAY 20,2025',
       title: 'Stitch Returns in Season 04',
       info: `Following a daring jailbreak conducted by his former adversary, Stitch’s 
@@ -52,7 +52,7 @@ const newsCard = [
       in the Season 04 Battle Pass.`
     },
      {
-      src: '/src/assets/news-card-img6.webp',
+      src: '/assets/news-card-img6.webp',
       date: 'MAY 20,2025',
       title: 'Stitch Returns in Season 04',
       info: `Following a daring jailbreak conducted by his former adversary, Stitch’s 

@@ -136,7 +136,7 @@
     transition: all .3s ease;}
 
     .background-img {
-      background-image: url('/src/assets/joinus-banner-img-spyro.png');
+      background-image: url('/assets/joinus-banner-img-spyro.png');
       background-repeat: no-repeat;
       background-size: cover;
       background-position: left;
@@ -168,7 +168,7 @@
     border-radius: 10px;
   }
   .supportHero{
-    background-image: url("/src/assets/supportHero.jpg");
+    background-image: url("/assets/supportHero.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

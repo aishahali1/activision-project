@@ -48,10 +48,10 @@ function Footer() {
              <div className='py-30'>
             <ul className='flex flex-row gap-2 px-2'>
                 <li>
-                    <img className='w-20 ' src='/src/assets/esrb-rating.jpg'></img>
+                    <img className='w-20 ' src='/assets/esrb-rating.jpg'></img>
                 </li>
                 <li>
-                    <img className='w-10' src='/src/assets/ESRB_updated.jpg'></img>
+                    <img className='w-10' src='/assets/ESRB_updated.jpg'></img>
                 </li>
             </ul>
         </div>
@@ -88,13 +88,13 @@ function Footer() {
          </div>
         </div>
         <div className='flex flex-col justify-center items-center'>
-            <img className='w-6 py-10' src='/src/assets/flag.png'></img>
+            <img className='w-6 py-10' src='/assets/flag.png'></img>
         </div>
         <div className='flex flex-col justify-center items-center'>
-            <img src='/src/assets/activision-logo.svg'></img>
+            <img src='/assets/activision-logo.svg'></img>
             <p>Copyright 2025 Activision Publishing, Inc.</p>
         </div>
-        <img src='/src/assets/rainbow-lines.svg'></img>
+        <img src='/assets/rainbow-lines.svg'></img>
     </div>
     </div>
     </>
