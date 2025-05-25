@@ -6,7 +6,6 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Home from '../pages/Home';
 import About from '../pages/About';
-import Careers from '../pages/Careers';
 import Support from '../pages/Support';
 
 function Layout(){
