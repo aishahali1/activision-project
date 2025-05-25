@@ -1,0 +1,182 @@
+@import "tailwindcss";
+
+*{
+  font-family: din-next-it-pro;
+}
+.nav{
+  position: fixed;
+  top: 0;
+
+}
+.header{
+  background:rgb(0, 0, 0);
+  border-bottom: 1px solid #B3B6B7;
+  display: flex;
+  align-items: center;
+}
+.logo{
+  padding-right: 10px;
+  padding-left: 20px;
+}
+.header-top-nav{
+ -webkit-box-align: center;
+}
+.login{
+  padding-left: 25vh;
+}
+.loginbtn{
+      border-radius: 24px;
+      padding: 4px 10px 5px;
+      color: white;
+      background: #14446a;
+      border: 1px solid #0b5087;
+      gap: 20px;
+}
+.homeNews{
+  background-image: radial-gradient(40% 20% at 50% 0, rgba(104, 104, 104, 0.85), #111111);
+}
+.newsWrapper{
+      border-top: 1px solid #b3b6b7;
+    border-bottom: 1px solid #b3b6b7;
+}
+.Listitem {
+  width: 137px;
+  height: 70px;
+  position: relative;
+  font-family: 'DIN Next LT Pro', Arial, sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #b3b6b7;
+  padding: 10px 0;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: center;
+  z-index: 2;
+  border-bottom: 0px solid #0768af;
+}
+
+.Listitem:hover {
+  color: #ffffff;
+  font-weight: 700;
+  background-color: #0768af33;
+  border-bottom: 7px solid #0768af;
+  padding-bottom: 6px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  transform: translateY(-2px); 
+}
+.Listitem img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+  z-index: 1;
+  position: relative;
+}
+.newsCard{
+   background: radial-gradient(100% 100% at 50.52% 0%, #686868 0%, #000000 100%);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    min-height: 520px;
+    width: 100%;
+    max-width: calc(33.3333% - 20px);
+    margin: 0 10px 20px;
+    overflow: hidden;
+    position: relative;
+}
+.img{
+  transition: .3s ease;
+  transform: scale(1) translateZ(0);
+}
+.divider-wrapper {
+   position: relative;
+    width: 100%;
+    height: 10px;
+    margin: 14px 0;
+    z-index: 0;
+}
+.blog-cards .divider-wrapper::before {
+     content: " ";
+    position: absolute;
+    top: 0px;
+    left: 93%;
+    bottom: 0;
+    width: 75px;
+    height: 1px;
+    background-color: #b3b6b7;
+    z-index: 1;
+    transform-origin: 0% 0%;
+    transition: all .3s ease;
+}
+
+.blog-cards .divider::before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 65px;
+    height: 10px;
+    background-color: #b3b6b7;
+    z-index: 1;
+    transition: all .3s ease;
+}
+.blog-cards .divider::before 
+{
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 93%;
+    height: 1px;
+    background-color: #b3b6b7;
+    z-index: 1;
+    transition: all .3s ease;}
+
+    .background-img {
+      background-image: url('/src/assets/joinus-banner-img-spyro.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: left;
+    }
+  .overlay-text{
+      background-image: linear-gradient(to right, black 30% , rgba(255, 255, 255, 0));
+  }
+
+  .overlay-text2{
+          background-image: linear-gradient(to left, black 40% , rgba(255, 255, 255, 0));
+  }
+  .footerbg{
+    background: radial-gradient(ellipse at 33% -300px, #686868 0%, #000000 50%);
+    background-size: 150% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 5;
+  }
+  .aboutborder{
+    border-top: 1px solid #b3b6b7;
+  }
+  .aboutimg{
+    width: 80% !important;
+    border-radius: 50%;
+    margin: 0 auto 15px;
+  }
+  .gamecard{
+    box-shadow: 0px 10px 20px rgb(0, 0, 0);
+    border-radius: 10px;
+  }
+  .supportHero{
+    background-image: url("/src/assets/supportHero.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .supportoverlay{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.417), rgba(255, 255, 255, 0));
+  }
+  .supportImg{
+     width: 367px;
+    transition: transform .5s ease;
+  }
